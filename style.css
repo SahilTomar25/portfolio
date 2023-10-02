@@ -81,7 +81,7 @@ button:hover {
 }
 
 main {
-    overflox:auto;
+    overflow:auto;
     height: 70vh;
     display: flex;
     flex-direction: column;
