@@ -13,6 +13,7 @@ body {
 section {
     font-family: 'Poppins', sans-serif;
     height: 98vh;
+    overflow: auto;
 }
 
 .page_1 {
@@ -27,36 +28,36 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 4rem;
+    height: 2em;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 10px;
+    padding: 2em 1em;
     background: rgba(0, 0, 0, 0.4);
 }
 
 .logo {
-    margin-left: 3rem;
-    text-shadow: 2px 2px 2px #f5deb3;
+    margin-left: 2em;
+    text-shadow: 0.1em 0.1em 0.1em #f5deb3;
     margin-right: auto;
     color: rgb(244, 183, 108);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 nav li {
     display: inline-block;
     list-style: none;
-    padding: 0px 20px;
+    padding: 0px 1.5em;
     font-weight: 700;
 }
 
 a,
 button {
     margin-left: 5%;
-    margin-right: 20px;
-    font-size: 16px;
-    font-weight: 500px;
+    margin-right: 1em;
+    font-size: 1em;
+    font-weight: 500;
     color: wheat;
     text-decoration: none;
     cursor: pointer;
@@ -64,9 +65,9 @@ button {
 
 button {
     background: rgba(0, 0, 0, 0.2);
-    border: 2px solid rgb(244, 183, 108);
-    border-radius: 50px;
-    padding: 9px 25px;
+    border: 0.15em solid rgb(244, 183, 108);
+    border-radius: 2em;
+    padding: 0.7em 1.5em;
 }
 
 nav li a:hover {
@@ -85,23 +86,24 @@ main {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding: 4rem;
+    padding: 4em;
 }
 
 .one {
-    font-size: 7rem;
+    font-size: 7em;
     color: #f5deb3;
 }
 
 .two {
-    font-size: 8rem;
+    font-size: 8em;
     color: rgb(244, 183, 108);
 }
 
 footer {
+    overflow: auto;
     display: flex;
     align-items: center;
-    padding: 0 4.5rem;
+    padding: 1.5em 4.5em;
 }
 
 .page_2 {
@@ -110,8 +112,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 4rem;
-    column-gap: 20px;
+    padding: 4em;
+    column-gap: 1em;
 }
 
 .img {
@@ -126,15 +128,16 @@ footer {
     width: 50%;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 1em;
 }
 
 .about h1 {
-    font-size: 2rem;
+    padding-top: 3em;
+    font-size: 2em;
 }
 
 .about p {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .page_3 {
@@ -145,10 +148,11 @@ footer {
     background-size: cover;
     background-position: center;
     justify-content: space-around;
-    padding: 4rem;
+    padding: 4em;
 }
 
 .page_3>div {
+    overflow-x: auto;
     display: flex;
     flex-direction: column;
     row-gap: 3em;
@@ -190,7 +194,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding: 1em;
-    column-gap: 20px;
+    column-gap: 1em;
 }
 
 .less {
