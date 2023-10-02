@@ -18,7 +18,7 @@ section {
 .page_1 {
     display: flex;
     flex-direction: column;
-    background: url(/photo/m-black-overlay.jpg);
+    background: url(photo/m-black-overlay.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -117,7 +117,7 @@ footer {
 .img {
     height: 80vh;
     width: 50%;
-    background: url(/photo/logo_main-removebg.png);
+    background: url(photo/logo_main-removebg.png);
     background-size: cover;
     background-position: center;
 }
@@ -168,7 +168,7 @@ footer {
 }
 
 .item_1 {
-    background: url(/photo/flutter.jpg);
+    background: url(photo/flutter.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ footer {
 }
 
 .item_2 {
-    background: url(/photo/android.png);
+    background: url(photo/android.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ footer {
 
 .item_3 {
     border-top-right-radius: 2em;
-    background: url(/photo/CSS.webp);
+    background: url(photo/CSS.webp);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
